@@ -278,37 +278,6 @@ print(a / 6)
 
       </section>
 
-      <!-- STATEMENTS & ERRORS -->
-      <section>
-        <section>
-            <h3>Errors</h3>
-            <ul class="list--tall copy--small box--small">
-                <li class="fragment">There are different kinds of errors that can occur.<br/><small>We've seen a few already.</small></li>
-                <li class="fragment">A "runtime error" results in an <strong>Exception</strong>, which has several types.<br/><small>Each type gives us some information about the nature of the error and how to correct it</small></li>
-                <li class="fragment">One type of exception is a <strong>SyntaxError</strong>. This results when our <span class="red">code can not be evaluated because it is incorrect</span> at a syntactic level.<br/><small>In other words, we are not following the "rules" of the language.</small></li>
-                <li class="fragment">Some other examples are the <strong>TypeError</strong> and <strong>NameError</strong> exceptions.</li>
-            </ul>
-        </section>
-
-        <section>
-          <h3>Errors - continued ...</h3>
-          <div class="box--small"><pre><code contenteditable class="python">
-# SyntaxError - Doesn't conform to the rules of Python.
-# This statement isn't meaningful to the computer
-4spam)eggs(garbage) + 10
-
-# NameError - Using a name that hasn't been defined yet
-a = 5
-print(d)
-d = 10
-
-# TypeError - Using an object in a way that its type does not support
-'string1' - 'string2'
-          </code></pre></div>
-          <p class="copy--small">There are also <strong>semantic</strong> errors.<br/><small>These are harder to catch because the computer can't catch them for us.</small></p>
-        </section>
-      </section>
-
       <!-- Let's develop it: 10 minutes -->
       <section>
           <h3>Let's Develop It</h3>
